@@ -7,6 +7,8 @@ const Profile = () => {
       <div className="profile-parent">
         <div className="profile-details">
             <div className="colz">
+              <div className="colz-icon">
+                
                 <a href="https://www.instagram.com/lolly_skino/" rel="noreferrer" target='_blank'>
                     <i className='fa fa-facebook-square'></i>
                 </a>
@@ -22,6 +24,7 @@ const Profile = () => {
                 <a href="https://twitter.com/InnovationLolly" rel="noreferrer" target='_blank'>
                     <i className='fa fa-twitter'></i>
                 </a>
+              </div>
             </div>
             <div className="profile-details-name">
               <span className='primary-text'>
@@ -43,14 +46,30 @@ const Profile = () => {
                   1000,
                   "Reactjs Developer 💻",
                   1000,
+                  "Web Developer 💻",
+                  1000,
                   "Junior React Developer 💻",
                   1000
                 ]}
-
                 />
                 </h1>
+                <span className='profile-role-tagline'>Flair of building web applications with front end operation. </span>
               </span>
             </div>
+            <div className='profile-optins'>
+              <button className='btn primary-btn'>
+                {""}
+                 Hire Me {""}
+              </button>
+              <a href="Resume.pdf" download="Resume.pdf" target="_blank" rel="noopener noreferrer">
+                <button className='btn highlighted -btn'>Get Resume</button>
+              </a>
+            </div>
+        </div>
+        <div className="profile-picture">
+          <div className="profile-picture-background">
+
+          </div>
         </div>
       </div>
     </div>
