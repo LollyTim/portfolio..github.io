@@ -1,5 +1,6 @@
 import React from 'react'
 import Typical from 'react-typical'
+import './Profile.css'
 
 const Profile = () => {
   return (
@@ -62,7 +63,7 @@ const Profile = () => {
                  Hire Me {""}
               </button>
               <a href="Resume.pdf" download="Resume.pdf" target="_blank" rel="noopener noreferrer">
-                <button className='btn highlighted -btn'>Get Resume</button>
+                <button className='btn highlighted-btn'>Get Resume</button>
               </a>
             </div>
         </div>
