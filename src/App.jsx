@@ -1,11 +1,12 @@
-import './App.css';
-import Home from './PortfolioComponent/Home/Home';
+import React from 'react';
+import Nav from './PortfolioComponent/Home/Nav';
+
 
 
 function App() {
   return (
-    <div className="App">
-      <Home />
+    <div className="bg-[#18102b]">
+      <Nav className=' bg-[#18102b]'/>
     </div>
   );
 }
