@@ -36,7 +36,7 @@ const Profile = () => {
               </div>
           </div>
           <div className='relative mx-auto rounded-full w-80 h-80 mt-20 overflow-hidden '>
-             <img src='ololade.jpg' />
+             <img src='ololade.jpg' alt='profile'/>
           </div>
        
             </section>
