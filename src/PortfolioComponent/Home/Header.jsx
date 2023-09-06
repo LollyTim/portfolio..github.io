@@ -35,7 +35,7 @@ const Profile = () => {
             <AiFillTwitterCircle />
               </div>
           </div>
-          <div className='relative mx-auto rounded-full w-80 h-80 mt-20 overflow-hidden '>
+          <div className=' mx-auto rounded-full w-80 h-80 mt-20 overflow-hidden '>
              <img src='ololade.jpg' alt='profile'/>
           </div>
        
