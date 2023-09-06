@@ -24,7 +24,7 @@ const Nav = () => {
         {!nav ? <AiOutlineMenu className='cursor-pointer' size={25} /> : <AiOutlineClose className='cursor-pointer' size={25} />}
 
       </div>
-      <div className={nav ? 'fixed right-0 top-0 w-[50%] h-full  bg-[#fcfbfb] mt-16 ease-in-out duration-500 md:hidden text-[#18102b] couraor' : 'fixed left-[-500px]'}>
+      <div className={nav ? 'fixed right-0 top-0 w-[60%] h-full  bg-[#fcfbfb] mt-16 ease-in-out duration-500 md:hidden text-[#18102b] couraor' : 'fixed left-[-500px]'}>
         <ul className=''>
           <li className='p-4'>Home</li>
           <li className='p-4 w-34'>About me</li>
