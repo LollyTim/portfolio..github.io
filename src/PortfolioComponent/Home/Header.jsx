@@ -1,79 +1,45 @@
 import React from 'react'
 import Typical from 'react-typical'
-
+import { AiFillTwitterCircle, AiFillLinkedin, AiFillInstagram } from 'react-icons/ai'
 
 const Profile = () => {
   return (
-    <div className=''>
-      <div className="">
-        <div className="">
-            <div className="">
-              <div className="">
-                
-                <a href="https://www.instagram.com/lolly_skino/" rel="noreferrer" target='_blank'>
-                    <i className='fa fa-facebook-square'> facebook</i>
-                </a>
-                <a href="#home"  rel="noreferrer" target='_blank'>
-                    <i className=''>github</i>
-                </a>
-                <a href="https://www.instagram.com/lolly_skino/" rel="noreferrer" target='_blank'>
-                    <i className=''>fa fa-instagram</i>
-                </a>
-                <a href="https://www.linkedin.com/in/ololade-sanya-106990272/" rel="noreferrer" target='_blank'>
-                    <i className=''>linkedin </i>
-                </a>
-                <a href="https://twitter.com/InnovationLolly" rel="noreferrer" target='_blank'>
-                    <i className=''>twiter</i>
-                </a>
-              </div>
-            </div>
-            <div className="">
-              <span className=''>
-                {""}
-                Hello, I'm <span className=''>Lolly</span>
-              </span>
-            </div>
-            <div className="">
-              <span className=''>
-                {" "}
-                <h1>
-                  {" "}
-                <Typical 
-                loop={Infinity}
-                steps={[
-                  "Ethusiastic Developer 😎",
-                  1000,
-                  "Front-End Developer 💻",
-                  1000,
-                  "Reactjs Developer 💻",
-                  1000,
-                  "Web Developer 💻",
-                  1000,
-                  "Junior React Developer 💻",
-                  1000
-                ]}
-                />
-                </h1>
-                <span className=''>Flair of building web applications with front end operation. </span>
-              </span>
-            </div>
-            <div className=''>
-              <button className=''>
-                {""}
-                 Hire Me {""}
-              </button>
-              <a href="Resume.pdf" download="Resume.pdf" target="_blank" rel="noopener noreferrer">
-                <button className=''>Get Resume</button>
-              </a>
-            </div>
-        </div>
-        <div className="">
-          <div className="">
-             profile picture 
+         <section>
+
+              <div className="text-center p-10 font-outfit select-none">
+            <span className='text-3xl py-2 text-[#18102b] font-outfit font-medium '>{""}Hello, I'm <span className=''>Lolly</span> </span>
+          <div className=" text-2xl py-2  "><span className='text-[#00df9a]'> {" "}<h1>{" "}
+              <Typical 
+              loop={Infinity}
+              steps={[
+                "Ethusiastic Developer 😎",
+                1000,
+                "Front-End Developer 💻",
+                1000,
+                "Reactjs Developer 💻",
+                1000,
+                "Web Developer 💻",
+                1000,
+                "Junior React Developer 💻",
+                1000
+              ]}
+              />
+              </h1>
+            </span>
           </div>
-        </div>
-      </div>
-    </div>
+              <p className=' text-gray-500 py-3 leading-8 font-medium lg:text-center flex-wrap'> Freelancer providing services for programming an development.<br/> 
+              Flair of building web applications with front end operation. </p>
+          <div className='text-4xl flex justify-center gap-16 text-gray-700 py-2 cursor-pointer'>
+            <AiFillInstagram /> 
+            <AiFillLinkedin />
+            <AiFillTwitterCircle />
+              </div>
+          </div>
+          <div className='relative mx-auto rounded-full w-80 h-80 mt-20 overflow-hidden '>
+             <img src='ololade.jpg' />
+          </div>
+       
+            </section>
   )
 }
 
