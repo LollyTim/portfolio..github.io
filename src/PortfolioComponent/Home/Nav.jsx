@@ -14,9 +14,9 @@ const Nav = () => {
     <div className=' select-none flex justify-between items-center h-16 max-w-6xl mx-auto px-4 first-letter font-outfit text-[#18102b]  bg-[#fbfafc]'>
       <h1 className='w-full text-3xl font-bold text-[#00df9a] flex whitespace-nowrap'><span className='text-black'> &lt; L</span>T /&gt;</h1>
       <ul className='hidden md:flex'>
-        <li className='p-4'>Home</li>
-        <li className='p-4 w-32'>About me</li>
-        <li className='p-4'>Service</li>
+        {/* <li className='p-4'>Home</li> */}
+        <li className='p-4 w-32' > <a href='#about' className=' hover:no-underline hover:text-black hover:text-[15px]'> About me </a></li>
+        {/* <li className='p-4'>Service</li> */}
         <li className='p-4'>Contact</li>
         <li className='p-4'>Projects</li>
       </ul>
@@ -26,9 +26,9 @@ const Nav = () => {
       </div>
       <div className={nav ? 'fixed right-0 top-0 w-[60%] h-full  bg-[#fcfbfb] mt-16 ease-in-out duration-500 md:hidden text-[#18102b] couraor' : 'fixed left-[-500px]'}>
         <ul className=''>
-          <li className='p-4'>Home</li>
+          {/* <li className='p-4'>Home</li> */}
           <li className='p-4 w-34'>About me</li>
-          <li className='p-4'>Service</li>
+          {/* <li className='p-4'>Service</li> */}
           <li className='p-4'>Contact</li>
           <li className='p-4'>Projects</li>
         </ul>
