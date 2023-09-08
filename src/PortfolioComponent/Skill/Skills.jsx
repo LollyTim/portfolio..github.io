@@ -18,22 +18,22 @@ const Skills = () => {
         logo: <IoLogoJavascript /> ,level:'Intermediate', count:55
       },
       {
-        logo: <FaReact /> ,level:'Advanced', count:80
+        logo: <FaReact /> ,level:'Advanced', count:70
       },
       {
         logo: <BiLogoTailwindCss /> ,level:'Advanced', count:60
       },
       {
-        logo: <AiFillGithub /> ,level:'Expert', count:90
+        logo: <SiTypescript /> ,level:'Intermediate', count:55
       },
       {
-        logo: <AiFillChrome /> ,level:'Advanced', count:80
+        logo: <AiFillChrome /> ,level:'Advanced', count:75
       },
       {
         logo: <TbBrandVscode /> ,level:'Advanced', count:75
       },
       {
-        logo: <SiTypescript /> ,level:'Advanced', count:86
+        logo: <AiFillGithub /> ,level:'Expert', count:90
       },
       
      ]
