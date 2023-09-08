@@ -27,9 +27,6 @@ const Skills = () => {
         logo: <SiTypescript /> ,level:'Intermediate', count:55
       },
       {
-        logo: <AiFillChrome /> ,level:'Advanced', count:75
-      },
-      {
         logo: <TbBrandVscode /> ,level:'Advanced', count:75
       },
       {
