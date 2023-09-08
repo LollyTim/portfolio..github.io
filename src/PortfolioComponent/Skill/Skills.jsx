@@ -9,31 +9,31 @@ import {TbBrandVscode} from 'react-icons/tb'
 const Skills = () => {
      const skills = [
       {
-        logo: <FaHtml5 /> ,level:'Advanced', count:86
+        logo: <FaHtml5 /> ,level:'Expert', count:86
       },
       {
-        logo: <FaCss3Alt /> ,level:'Intermediate', count:86
+        logo: <FaCss3Alt /> ,level:'Advanced', count:86
       },
       {
-        logo: <IoLogoJavascript /> ,level:'Beginner', count:50
+        logo: <IoLogoJavascript /> ,level:'Intermediate', count:55
       },
       {
-        logo: <FaReact /> ,level:'Expert', count:40
+        logo: <FaReact /> ,level:'Advanced', count:80
+      },
+      {
+        logo: <BiLogoTailwindCss /> ,level:'Advanced', count:60
+      },
+      {
+        logo: <AiFillGithub /> ,level:'Expert', count:90
+      },
+      {
+        logo: <AiFillChrome /> ,level:'Advanced', count:80
+      },
+      {
+        logo: <TbBrandVscode /> ,level:'Advanced', count:75
       },
       {
         logo: <SiTypescript /> ,level:'Advanced', count:86
-      },
-      {
-        logo: <AiFillGithub /> ,level:'Advanced', count:86
-      },
-      {
-        logo: <AiFillChrome /> ,level:'Advanced', count:86
-      },
-      {
-        logo: <TbBrandVscode /> ,level:'Advanced', count:86
-      },
-      {
-        logo: <BiLogoTailwindCss /> ,level:'Advanced', count:86
       },
       
      ]
