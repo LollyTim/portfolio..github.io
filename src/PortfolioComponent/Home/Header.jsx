@@ -24,15 +24,13 @@ const Profile = () => {
                 5000,
                 "Web Developer 💻",
                 5000,
-                "Junior React Developer 💻",
-                5000
               ]}
               />
               </h1>
             </span>
           </div>
               <p className=' text-gray-500 py-3 leading-8 font-medium lg:text-center flex-wrap'> Freelancer providing services for programming and development.<br/> 
-              Flair of building web applications with front end operation. </p>
+              Flair of building web applications with front-end operation. </p>
           <div className='text-4xl flex justify-center gap-16 text-gray-700 py-2 cursor-pointer'>
             <AiFillInstagram /> 
             <AiFillLinkedin />
