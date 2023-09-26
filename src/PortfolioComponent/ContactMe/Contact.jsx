@@ -21,7 +21,7 @@ const Contact = () => {
 
                 <div
                     className="mt-16 flex md:flex-row flex-col
-         gap-6 max-w-5xl bg-gray-800 md:p-6 p-36 rounded-lg mx-auto"
+         gap-6 max-w-8xl lg:max-w-5xl md:max-w-5xl  bg-gray-800 md:p-6 p-36 rounded-lg mx-auto "
                 >
                     <form className="flex flex-col flex-1 gap-5 text-gray-900">
                         <input type="text" placeholder="Your Name" />
