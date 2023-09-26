@@ -17,8 +17,8 @@ const Nav = () => {
         {/* <li className='p-4'>Home</li> */}
         <li className='p-4 w-32' > <a href='#about' className=' hover:no-underline hover:text-black hover:text-[15px]'> About me </a></li>
         {/* <li className='p-4'>Service</li> */}
-        <li className='p-4'>Contact</li>
-        <li className='p-4'>Projects</li>
+        <li className='p-4'><a href='#contact' className=' hover:no-underline hover:text-black hover:text-[15px]'> Contact </a></li>
+        <li className='p-4'><a href='#projects' className=' hover:no-underline hover:text-black hover:text-[15px]'> Projects </a></li>
       </ul>
       <div onClick={handleNav} className='block md:hidden'>
         {!nav ? <AiOutlineMenu className='cursor-pointer' size={25} /> : <AiOutlineClose className='cursor-pointer' size={25} />}
@@ -27,11 +27,11 @@ const Nav = () => {
       <div className={nav ? 'fixed right-0 top-0 w-[60%] h-full  bg-[#fcfbfb] mt-16 ease-in-out duration-500 md:hidden text-[#18102b] couraor' : 'fixed left-[-500px]'}>
         <ul className=''>
           {/* <li className='p-4'>Home</li> */}
-          <li className='p-4 w-34'>About me</li>
-          {/* <li className='p-4'>Service</li> */}
-          <li className='p-4'>Contact</li>
-          <li className='p-4'>Projects</li>
-        </ul>
+           <li className='p-4 w-32' > <a href='#about' className=' hover:no-underline hover:text-black hover:text-[15px]'> About me </a></li>
+        {/* <li className='p-4'>Service</li> */}
+        <li className='p-4'><a href='#Contact' className=' hover:no-underline hover:text-black hover:text-[15px]'> Contact </a></li>
+        <li className='p-4'><a href='#Project' className=' hover:no-underline hover:text-black hover:text-[15px]'> Projects </a></li>
+      </ul>
       </div>
     </div>
     <Header />

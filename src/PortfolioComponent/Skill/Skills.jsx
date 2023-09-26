@@ -2,35 +2,36 @@ import React from 'react'
 import {FaHtml5, FaReact, FaCss3Alt } from 'react-icons/fa'
 import {IoLogoJavascript} from 'react-icons/io'
 import {BiLogoTailwindCss} from 'react-icons/bi'
-import {AiFillGithub, AiFillChrome} from 'react-icons/ai'
+import {AiFillGithub} from 'react-icons/ai'
 import {SiTypescript} from 'react-icons/si'
 import {TbBrandVscode} from 'react-icons/tb'
 
 const Skills = () => {
      const skills = [
       {
-        logo: <FaHtml5 /> ,level:'Expert', count:86
+        logo: <FaHtml5 />  
       },
       {
-        logo: <FaCss3Alt /> ,level:'Advanced', count:86
+        logo: <FaCss3Alt /> 
       },
       {
-        logo: <IoLogoJavascript /> ,level:'Intermediate', count:55
+        logo: <IoLogoJavascript /> 
       },
       {
-        logo: <FaReact /> ,level:'Advanced', count:70
+        logo: <FaReact /> 
       },
       {
-        logo: <BiLogoTailwindCss /> ,level:'Advanced', count:60
+        logo: <BiLogoTailwindCss /> 
       },
       {
-        logo: <SiTypescript /> ,level:'Intermediate', count:55
+        logo: <SiTypescript /> 
+        
       },
       {
-        logo: <TbBrandVscode /> ,level:'Advanced', count:75
+        logo: <TbBrandVscode /> 
       },
       {
-        logo: <AiFillGithub /> ,level:'Expert', count:90
+        logo: <AiFillGithub /> 
       },
       
      ]
@@ -44,12 +45,12 @@ const Skills = () => {
          {
           skills?.map((skills,i) => (
             <div  key={i} className='border-2 border-[#00df9a] relative min-w-[10rem] max-w-[16rem] bg-gray-900 p-10 rounded-xl text-gray-200'>
-           <div style={{
+           {/* <div style={{
             background: `conic-gradient(rgb(0, 223, 154) ${skills.count}%, #ddd ${skills.count}%)`
-           }} className='w-32 h-32 flex items-center justify-center rounded-full'>
+           }} className='w-32 h-32 flex items-center justify-center rounded-full'> */}
              <div className='text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center'>
               {skills.logo}
-            </div>           
+            {/* </div>            */}
            </div>
                <p className='text-xl mt-3'>{skills.level}</p>
          </div>
