@@ -19,6 +19,7 @@ const Nav = () => {
         {/* <li className='p-4'>Service</li> */}
         <li className='p-4'><a href='#contact' className=' hover:no-underline hover:text-black hover:text-[15px]'> Contact </a></li>
         <li className='p-4'><a href='#projects' className=' hover:no-underline hover:text-black hover:text-[15px]'> Projects </a></li>
+        <li className='p-4'><a href='#skills' className=' hover:no-underline hover:text-black hover:text-[15px]'> Skills </a></li>
       </ul>
       <div onClick={handleNav} className='block md:hidden'>
         {!nav ? <AiOutlineMenu className='cursor-pointer' size={25} /> : <AiOutlineClose className='cursor-pointer' size={25} />}
@@ -31,6 +32,7 @@ const Nav = () => {
         {/* <li className='p-4'>Service</li> */}
         <li className='p-4'><a href='#Contact' className=' hover:no-underline hover:text-black hover:text-[15px]'> Contact </a></li>
         <li className='p-4'><a href='#Project' className=' hover:no-underline hover:text-black hover:text-[15px]'> Projects </a></li>
+                <li className='p-4'><a href='#skills' className=' hover:no-underline hover:text-black hover:text-[15px]'> Skills </a></li>
       </ul>
       </div>
     </div>
