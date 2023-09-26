@@ -12,7 +12,7 @@ const Contact = () => {
         },
     ];
     return (
-        <section id="contact" className="py-20 px-3 text-white">
+        <section id="contact" className="py-20 px-1 text-white">
             <div className="text-center mt-8">
                 <h3 className="text-4xl font-semibold  text-gray-800">
                     Contact <span className="text-[#00df9a]">Me</span>
@@ -21,7 +21,7 @@ const Contact = () => {
 
                 <div
                     className="mt-16 flex md:flex-row flex-col
-         gap-6 max-w-8xl lg:max-w-5xl md:max-w-5xl  bg-gray-800 md:p-6 p-36 rounded-lg mx-auto "
+         gap-6 sm:max-w-8xl lg:max-w-5xl md:max-w-5xl  bg-gray-800 md:p-6 p-20 rounded-lg mx-auto "
                 >
                     <form className="flex flex-col flex-1 gap-5 text-gray-900">
                         <input type="text" placeholder="Your Name" />
@@ -29,7 +29,7 @@ const Contact = () => {
                         <textarea placeholder="Your Message" rows={10}></textarea>
                         <button className="p-2 bg-[#00df9a] rounded-full w-48 ">Send Message</button>
                     </form>
-                    <div className="flex flex-col  gap-7 ">
+                    <div className="flex flex-col  gap-2 w-80 ">
                         {contact_info.map((contact, i) => (
                             <div
                                 key={i}
